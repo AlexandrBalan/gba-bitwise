@@ -14,6 +14,16 @@ int main() {
 
     bn::sprite_ptr face = bn::sprite_items::face.create_sprite();
 
+    int number = 7;
+    int other_number = 0b111;
+
+    if(number == other_number) {
+        BN_LOG("equal");
+    }
+    else {
+        BN_LOG("not equal");
+    }
+
     BN_LOG("Hey!");
 
     bn::backdrop::set_color(bn::color());
