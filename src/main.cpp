@@ -7,12 +7,12 @@
 
 #include "base_conv.h"
 
-#include "bn_sprite_items_frobert.h"
+#include "bn_sprite_items_face.h"
 
 int main() {
     bn::core::init();
 
-    bn::sprite_ptr frobert = bn::sprite_items::frobert.create_sprite();
+    bn::sprite_ptr face = bn::sprite_items::face.create_sprite();
 
     BN_LOG("Hey!");
 
